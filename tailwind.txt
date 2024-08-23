@@ -1,35 +1,35 @@
 <!-- <!-- spacing -->
 
-<div class="p-20">
-<h2 class="mb-4">Spacing section</h2>
-<p class="mb-4">Tailwind helps us space things out with margin and padding</p>
-<button class="mr-3 px-4 py-2">Learn More</button>
-<button class="px-8 py-2">Sign Up</button>
+<div class="p-20 bg-green-700">
+<h2 class="mb-4 text-5xl text-green-100">Spacing section</h2>
+<p class="mb-4 text-xl text-green-200">Tailwind helps us space things out with margin and padding</p>
+<button class="mr-3 px-4 py-2 bg-purple-700 text-purple-300 hover:bg-purple-600 transition duration-300 rounded">Learn More</button>
+<button class="px-8 py-2 bg-yellow-500 text-yellow-300 hover:bg-yellow-400 transition duration-300 rounded shadow-lg">Sign Up</button>
 </div>
 
 <!-- box properties -->
 <!-- (background,borders,rounding,shadows) -->
 
 <div class="p-20 bg-blue-400">
-  <h2 class="mb-4">box properties</h2>
-  <div class="p-10 bg-purple-400 border border-purple-600 rounded-lg shadow">i am a box</div>
+  <h2 class="mb-4 text-4xl text-blue-300">box properties</h2>
+  <div class="p-10 text-purple-300 tracking-widest text-center uppercase font-bold bg-purple-400 border border-purple-600 rounded-lg shadow">i am a box</div>
 </div>
 
 <!-- sizing & numbering -->
 
 <!-- ( 4*number = px) -->
 
-<div class="p-20 bg-yellow-400">
-  <button class="p-4 bg-green-400 rounded w-8">click me</button>
-  <button class="p-4 bg-green-400 rounded w-12">click me</button>
-  <button class="p-4 bg-green-400 rounded w-20">click me</button>
-  <button class="p-4 bg-green-400 rounded w-32">click me</button>
-  <button class="p-4 bg-green-400 rounded w-48">click me</button>
+<div class="p-20 bg-yellow-200">
+  <button class="p-4 bg-yellow-400 text-yellow-200 rounded w-8">click me</button>
+  <button class="p-4 bg-yellow-400 text-yellow-200 rounded w-12">click me</button>
+  <button class="p-4 bg-yellow-400 text-yellow-200 rounded w-20">click me</button>
+  <button class="p-4 bg-yellow-400 text-yellow-200 rounded w-32">click me</button>
+  <button class="p-4 bg-yellow-400 text-yellow-200 rounded w-48">click me</button>
 </div> 
 <!-- typography -->
  <div class="p-20 text-grey-800">
       <h2 class="mb-2 text-4xl text-grey-700 font-bold">Learning Tailwind is fun</h2>
-      <h3 class="mb-8 text-2xl text-grey-500">more fun than i expected</h3>
+      <h3 class="mb-8 text-2xl text-blue-500">more fun than i expected</h3>
       <p class="mb-8 text-lg tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, vero dolorem? Ducimus architecto dolorum vel illo officiis laboriosam rerum non, vitae deleniti saepe commodi assumenda error perspiciatis! Culpa delectus minima a at dolor, inventore perferendis commodi accusantium facilis impedit. Perspiciatis, reprehenderit possimus itaque blanditiis repellat rem hic alias nam voluptate.</p>
       <p class="mb-8 text-lg tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla architecto repellendus necessitatibus totam numquam earum praesentium, quis fugiat dolorem! Similique molestias distinctio eveniet nostrum repellendus ea harum, aspernatur in sunt consequuntur ad? Accusantium illo autem earum quo, quae enim, consequatur nobis modi eveniet nesciunt molestiae. Libero excepturi eligendi maxime esse?</p>
       <p class="text-lg tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. A cupiditate rerum neque quidem veniam tempora modi asperiores assumenda, eius dignissimos rem odit praesentium cum quaerat distinctio aut saepe sed! Deleniti ullam beatae sint. Unde impedit numquam vel accusamus et hic, incidunt nam beatae quam aliquam voluptatem, corporis alias, deleniti iusto!</p>
